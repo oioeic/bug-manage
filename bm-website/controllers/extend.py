@@ -6,5 +6,5 @@ class MainExtended(Main):
     @http.route()
     def hello(self, name=None, **kwargs):
         response = super(MainExtended, self).hello()
-        response.qcontext['name'] = name
+        response.qcontext["name"] = name
         return response

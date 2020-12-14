@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from odoo import http
 
 # class Bm-website(http.Controller):
